@@ -33,7 +33,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col"  *ngFor="let filaFutbolista of listaFutbolistas">
           <div class="card">
-            <img src="https://milumonep3.000webhostapp.com/servicios/futbolistas{{filaFutbolista.image}}" class="card-img-top" alt="...">
+            <img src="{{filaFutbolista.image}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">
                 {{filaFutbolista.nombre}} </h5>

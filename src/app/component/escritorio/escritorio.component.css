@@ -1,0 +1,12 @@
+.padded{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+*{
+    color: black;
+}
+
+.bg-back {
+    background-image: url("src/app/inicio/argentina/celeste.jpg");
+}

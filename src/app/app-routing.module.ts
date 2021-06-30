@@ -6,6 +6,8 @@ import { RickIdComponent } from './component/rick-id/rick-id.component';
 import { SeleccionComponent } from './component/seleccion/seleccion.component';
 import { SeleccionDetalleComponent } from './component/seleccion-detalle/seleccion-detalle.component';
 import { TiendaComponent } from './component/tienda/tienda.component';
+import { LoginComponent } from './component/login/login.component';
+import { EscritorioComponent } from './component/escritorio/escritorio.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -13,7 +15,10 @@ const routes: Routes = [
   {path:'rick-id/:id', component:RickIdComponent},
   {path:'seleccion',component:SeleccionComponent},
   {path:'seleccion-detalle/:id', component:SeleccionDetalleComponent},
-  {path:'tienda',component:TiendaComponent}
+  {path:'tienda',component:TiendaComponent},
+  {path: 'iniciarsesion', component: LoginComponent},
+  {path: 'escritorio/:id', component: EscritorioComponent}
+
 
 
 

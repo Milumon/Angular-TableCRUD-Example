@@ -30,6 +30,8 @@ import { SeleccionComponent } from './component/seleccion/seleccion.component';
 import { TiendaComponent } from './component/tienda/tienda.component';
 import { SeleccionDetalleComponent } from './component/seleccion-detalle/seleccion-detalle.component';
 import { SeleccionPosicionComponent } from './component/seleccion-posicion/seleccion-posicion.component';
+import { LoginComponent } from './component/login/login.component';
+import { EscritorioComponent } from './component/escritorio/escritorio.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { SeleccionPosicionComponent } from './component/seleccion-posicion/selec
     TiendaComponent,
     SeleccionDetalleComponent,
     SeleccionPosicionComponent,
+    LoginComponent,
+    EscritorioComponent,
 
   ],
   imports: [

@@ -11,7 +11,7 @@
 
 
     <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Nuevo jugador
         </a>
  
@@ -38,7 +38,7 @@
                     formControlName="equipo" required minlength="2" >
                   </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleInput5" placeholder="Image"
+                    <input type="text" class="form-control" id="exampleInput5" placeholder="Image URL"
                     formControlName="image" required minlength="2" >
                   </div>
                 <select class="form-select mb-3" formControlName="posicion" aria-label="Default select example"  > 
@@ -147,7 +147,7 @@
               </div>
             <div class="mb-3">
                 <input type="text" class="form-control" 
-                id="exampleInput6" placeholder="Image"
+                id="exampleInput6" placeholder="Image URL"
                 [(ngModel)] = "futbolistaActualizar.image"
                 formControlName="image" required minlength="2" >
               </div>
