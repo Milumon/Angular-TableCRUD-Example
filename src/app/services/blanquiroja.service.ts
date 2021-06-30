@@ -36,4 +36,28 @@ export class BlanquirojaService {
       })
     )
   }
+
+  futbolistasUpdate(idFutbolista, nombre, edad, pais, equipo, image, posicion){
+    const ruta = "https://milumonep3.000webhostapp.com/servicios/editarfutbolista.php";
+
+    const formData: FormData = new FormData();
+    formData.append("idFutbolista",idFutbolista) 
+    formData.append("nombre",nombre)
+    formData.append("edad",edad)
+    formData.append("pais",pais)
+    formData.append("equipo",equipo)
+    formData.append("image",image)
+    formData.append("posicion",posicion)
+
+    return this.http.post(ruta,formData) 
+  }
+
+  futbolistasDelete(idFutbolista){
+    const ruta = "https://milumonep3.000webhostapp.com/servicios/eliminarfutbolista.php";
+
+    const formData: FormData = new FormData();
+    formData.append("idFutbolista",idFutbolista)
+    
+    return this.http.post(ruta,formData)
+  }
 }

@@ -4,7 +4,9 @@ import { SwiperModule } from 'swiper/angular';
 import{ HttpClientModule} from '@angular/common/http';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { OrderModule } from 'ngx-order-pipe';
 import { FilterPipeModule } from 'ngx-filter-pipe';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -58,8 +60,10 @@ import { SeleccionPosicionComponent } from './component/seleccion-posicion/selec
     HttpClientModule,
     NgxPaginationModule,
     FilterPipeModule,
+    OrderModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FontAwesomeModule
 
   ],
   providers: [],
