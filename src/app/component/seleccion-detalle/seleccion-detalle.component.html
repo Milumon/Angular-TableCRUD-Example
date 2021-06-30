@@ -1,0 +1,39 @@
+
+<section id="jugador-detalle" class="padded bg-back vh-100 text-white">
+    <div class="container " *ngIf="jugador">
+       <div class="row align-items-center justify-contet-center vh-100 p-5">
+
+        <div class="col-md-12  text-white">
+            <h2 class="animate__animated animate__backInDown ">{{jugador.nombre}}</h2>
+            <div class="d-flex align-items-center text-center  ">
+
+                <div class="col-md-3 animate__animated animate__backInLeft">
+                    <h5>-Nombre-</h5>
+                    <p>{{jugador.nombre}}</p>
+    
+                </div>
+                <div class="animate__animated animate__backInLeft col-md-3">
+                    <h5>-Equipo-</h5>
+                    <p>{{jugador.equipo}}</p>
+    
+                </div>
+                <div class=" animate__animated animate__backInLeft col-md-3">
+                    <h5>-Edad-</h5>
+                    <p>{{jugador.edad}}</p>
+                </div>
+
+                <div class="animate__animated animate__backInUp col-md-3">
+                    <figure class="figure rounded">
+                        <img src="https://milumonep3.000webhostapp.com/servicios/futbolistas{{jugador.image}}" class=" rounded-circle rounded figure-img img-fluid rounded border border border-5 " alt="...">
+                      </figure>  
+
+    
+                </div>
+    
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</section>

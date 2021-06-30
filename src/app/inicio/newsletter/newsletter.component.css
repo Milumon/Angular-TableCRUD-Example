@@ -1,0 +1,44 @@
+.back-image{
+    background-image: url("src/assets/images/newsletter/1-1-491x529.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 1.25rem !important;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #ee3c31 !important;
+    margin-bottom: 2.5rem !important;
+}
+.input-field {
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 315px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    margin-right: 2px;
+}
+.newsletter-form .btn-custom-size {
+    width: 135px;
+    height: 45px;
+    border-end-end-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.padding{
+padding-top: 9%;
+}

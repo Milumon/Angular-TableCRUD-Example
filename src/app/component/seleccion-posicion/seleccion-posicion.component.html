@@ -1,0 +1,47 @@
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="tabla-tab" data-bs-toggle="tab" data-bs-target="#tabla" type="button" role="tab" aria-controls="home" aria-selected="true">Tabla</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="cuadricula-tab" data-bs-toggle="tab" data-bs-target="#cuadricula" type="button" role="tab" aria-controls="profile" aria-selected="false">Cuadricula</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="tabla" role="tabpanel" aria-labelledby="tabla-tab">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Equipo</th>
+                    <th>País</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let filaFutbolista of listaFutbolistas">
+                    <td>{{filaFutbolista.nombre}}</td>
+                    <td>{{filaFutbolista.edad}}</td>
+                    <td>{{filaFutbolista.equipo}}</td>
+                    <td class="text-end">{{filaFutbolista.pais}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="tab-pane fade" id="cuadricula" role="tabpanel" aria-labelledby="cuadricula-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col"  *ngFor="let filaFutbolista of listaFutbolistas">
+          <div class="card">
+            <img src="https://milumonep3.000webhostapp.com/servicios/futbolistas{{filaFutbolista.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">
+                {{filaFutbolista.nombre}} </h5>
+              <h6>{{filaFutbolista.edad}}</h6>
+              <p class="card-text">{{filaFutbolista.equipo}}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  

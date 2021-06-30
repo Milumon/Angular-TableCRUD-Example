@@ -1,0 +1,44 @@
+.bg-footer{
+    background-color: #18202e;
+}
+h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+a,li,p{
+    color: #dee2f7;
+    font-weight: 300;
+    line-height: 28px;
+}
+ul{
+    list-style-type: none;
+}
+.pad{
+    padding-top: 80px;
+}
+
+.bg-footer2{
+    background-color: #1a2332;
+}
+p{
+    font-weight: 300;
+    line-height: 28px;
+    text-transform: inherit;
+}
+i{
+    color: #ee3231;
+}
+li{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.redes i{
+
+    color: white !important;
+    margin-right: 10px;
+}

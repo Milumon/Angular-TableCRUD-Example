@@ -1,0 +1,39 @@
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: #9dcd48;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: /* rgba(0, 0, 0, 0.05); */#d9fa9d;
+    --bs-table-active-color: #00afc8;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: #00afc8;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+.bg-back{
+    background-color: #9dcd48;
+}
+
+.form-control {
+
+    background-color: #d9fa9d;
+
+}
+.headd{
+    background-color:#72a11f !important;
+    text-transform: uppercase;
+    font-weight:bold;
+
+
+}
+*{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:20px;
+    font-weight: bolder;
+}
+.bg-back{
+    background-image: url("src/assets/images/RickMorty/fondo.jpg");
+}

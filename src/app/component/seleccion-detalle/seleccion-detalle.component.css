@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+color: white;
+font-family: 'Anton', sans-serif;
+}
+.bg-back {
+    background-image: url("src/app/inicio/argentina/celeste.jpg");
+}

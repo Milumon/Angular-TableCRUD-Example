@@ -1,0 +1,82 @@
+.back{
+    background-image: url("src/assets/images/background-img/inner-bg/1-1-496x566.png");
+    background-repeat: no-repeat;
+}
+
+.padded{
+    margin-top: 100px;
+}
+.back-car-1{
+    background-image: url("src/assets/images/banner/1-1-400x250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.back-car-2{
+    background-image: url("src/assets/images/banner/1-2-400x250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.back-car-3{
+    background-image: url("src/assets/images/banner/1-3-400x250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.back-car-4{
+    background-image: url("src/assets/images/shipping/bg/1-1-1280x202.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+h3{
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+a{
+    padding: 0;
+    width: 105px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+}
+.btn-primary {
+    background-color: #ee3231;
+    border-color: #ee3231;
+}
+
+.shipping-content .title {
+    color: #1f2226;
+    font-size: 20px;
+}
+.shipping-content .short-desc {
+    color: #3e3e3f;
+}
+p{
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform:inherit;
+}
+.shipping-img{
+  margin-left: 15px;
+  margin-right: 15px;
+}

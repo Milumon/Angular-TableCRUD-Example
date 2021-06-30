@@ -1,0 +1,25 @@
+.image-back{
+    background-image: url("src/assets/images/slider/bg/1-1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.image-back2{
+    background-image: url("src/assets/images/slider/bg/1-2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+a{
+    width: 165px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.btn-primary{
+        background-color: #ee3231;
+    border-color: #ee3231;
+    border-radius: 0;
+}

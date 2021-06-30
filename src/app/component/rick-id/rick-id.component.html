@@ -1,0 +1,45 @@
+
+<section id="rickMorty-detalle" class="padded bg-back vh-100">
+    <div class="container " *ngIf="rickMorty">
+       <div class="row align-items-center justify-contet-center vh-100 p-5">
+
+        <div class="col-md-12  text-white">
+            <h2 class="animate__animated animate__backInDown ">{{rickMorty.name}}</h2>
+            <div class="d-flex align-items-center text-center  ">
+
+                <div class="col-md-3 animate__animated animate__backInLeft">
+                    <h5>-Status-</h5>
+                    <p>{{rickMorty.status}}</p>
+    
+                </div>
+                <div class="animate__animated animate__backInLeft col-md-3">
+                    <h5>-Species-</h5>
+                    <p>{{rickMorty.species}}</p>
+    
+                </div>
+                <div class=" animate__animated animate__backInLeft col-md-3">
+                    <h5>-Gender-</h5>
+                    <p>{{rickMorty.gender}}</p>
+                </div>
+
+                <div class="animate__animated animate__backInUp col-md-3">
+                    <figure class="figure rounded">
+                        <img src="{{rickMorty.image}} " class=" rounded-circle rounded figure-img img-fluid rounded border border border-5 " alt="...">
+                      </figure>  
+
+    
+                </div>
+    
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- <li class="list-group-item "> {{character.id}}</li>
+    name
+<li class="list-group-item ">{{character.status}}</li>
+<li class="list-group-item ">{{character.species}}</li>
+<li class="list-group-item ">{{character.gender}}</li>
+<li class="list-group-item ">{{character.origin.name}}</li> -->

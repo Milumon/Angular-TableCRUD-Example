@@ -1,0 +1,86 @@
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+.padded-img{
+        padding-top: 250px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        background-color: black;
+}
+
+.back{
+    background-image: url("src/assets/images/background-img/1-1-1920x1107.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+
+.back2{
+    background-image: url("src/assets/images/product/medium-size/special-deals/1-1-620x350.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.back3{
+    background-image: url("src/assets/images/product/medium-size/special-deals/1-2-290x350.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.back4{
+    background-image: url("src/assets/images/product/medium-size/special-deals/1-3-290x350.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.back5{
+    background-image: url("src/assets/images/product/medium-size/special-deals/1-4-290x350.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.back6{
+    background-image: url("src/assets/images/product/medium-size/special-deals/1-5-290x350.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.back7{
+    background-image: url("src/assets/images/product/medium-size/special-deals/banner/1-1-290x748.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+p {
+    line-height: 26px;
+}
+.border-5 {
+    border-width: 10px!important;
+}
+
+.border-dark{
+    border-color: #f4f4f4 !important;
+}
+.pt-55{
+    padding-top: 55px;
+}
